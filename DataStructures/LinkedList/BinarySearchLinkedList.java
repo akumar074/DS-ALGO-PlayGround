@@ -9,6 +9,7 @@ public class BinarySearchLinkedList {
     int givenValue = 1;
     System.out.println("Q. Is " + givenValue + " in the Linked List " + linkedList.toString() + " ?");
     System.out.println("Answer: " + binarySearchWithIterator(linkedList.head, givenValue));
+    System.out.println("Answer: " + binarySearch(linkedList.head, givenValue));
   }
 
   private static ListNode findMiddle(ListNode head){
