@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="Added solution for merging two sorted linked list with using recursion">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/Dynamic_Programming/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CountingValleys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindSocksPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JumpingOnTheClouds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepeatedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftRotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RepeatedString">
+  <component name="RunManager" selected="Application.LeftRotateArray">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingValleys" />
       <module name="DS-ALGO-PlayGround" />
@@ -70,6 +63,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftRotateArray" />
+      <module name="DS-ALGO-PlayGround" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RepeatedString" />
       <module name="DS-ALGO-PlayGround" />
@@ -77,26 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Dynamic_Programming.Solution" />
-      <module name="DS-ALGO-PlayGround" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.Dynamic_Programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.JumpingOnTheClouds" />
         <item itemvalue="Application.CountingValleys" />
         <item itemvalue="Application.FindSocksPair" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
