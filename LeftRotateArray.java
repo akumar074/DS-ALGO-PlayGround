@@ -19,7 +19,8 @@ public class LeftRotateArray {
     int n = a.length, mod = d % n;
     int[] result = new int[n];
     for (int i = 0; i < n; ++i) {
-      result[i] = a[(i + mod) % n];
+//      result[i] = a[(i + mod) % n];
+      result[(i + mod) % n] = a[i];
     }
     return result;
   }
