@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="Added solution for Rotating array to left by `d` digits">
-      <change afterPath="$PROJECT_DIR$/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Knapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Algorithm/Dynamic_Programming/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/CountingValleys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/CountingValleys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/BinarySearchLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/BinarySearchLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/DLLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/DLLNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/DoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/MergeSortedLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/MergeSortedLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/MergeSortedWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/DataStructures/LinkedList/MergeSortedWithRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/FindSocksPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/FindSocksPair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/HourGlass2dArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/HourGlass2dArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/JumpingOnTheClouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/JumpingOnTheClouds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/LeftRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/LeftRotateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/META-INF/DS-ALGO-PlayGround.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/MergeSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/MergeSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/RepeatedString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/RepeatedString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Result1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Result1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/DiStringMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/DiStringMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/FlipAndInvertImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/FlipAndInvertImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/HammingDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/HammingDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/JewelsInStones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/JewelsInStones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/JudgeCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/JudgeCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/KaryString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/KaryString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/MergeTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/MergeTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/MinDeletionSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/MinDeletionSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/NaryStringGenerate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/NaryStringGenerate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/RepeatedNTimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/RepeatedNTimes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/SortArrayByParity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/SortArrayByParity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/SortedSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/SortedSquares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/ToLower.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/ToLower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/UniqueEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/UniqueEmails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/UniqueMorseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/com/demo/learning/easy/UniqueMorseCode.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,6 +205,11 @@
           <url>file://$PROJECT_DIR$/ReverseLinkedList.java</url>
           <line>28</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ReverseLinkedList.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
