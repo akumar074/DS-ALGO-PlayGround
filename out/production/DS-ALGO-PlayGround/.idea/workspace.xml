@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeftRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS-ALGO-PlayGround/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="Added solution for Rotating array to left by `d` digits">
+      <change afterPath="$PROJECT_DIR$/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,6 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567711768876" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedList">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingValleys" />
       <module name="DS-ALGO-PlayGround" />
@@ -64,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedList" />
-      <module name="DS-ALGO-PlayGround" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RepeatedString" />
       <module name="DS-ALGO-PlayGround" />
@@ -78,9 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseLinkedList" />
+      <module name="DS-ALGO-PlayGround" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortedList" />
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.JumpingOnTheClouds" />
@@ -148,14 +145,7 @@
       <option name="project" value="LOCAL" />
       <updated>1568484624413</updated>
     </task>
-    <task id="LOCAL-00008" summary="Added solution for Rotating array to left by `d` digits">
-      <created>1568741229606</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1568741229606</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
