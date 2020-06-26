@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="Added gitignore file">
-      <change afterPath="$PROJECT_DIR$/ReverseLinkedListInGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/Dynamic_Programming/FlipFive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +21,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QnQFyEi0FKUr4iPrCGHXfVGt23" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -30,22 +32,16 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ReverseLinkedListInGroup">
-    <configuration name="JumpingOnTheClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JumpingOnTheClouds" />
+  <component name="RunManager" selected="Application.FlipFive">
+    <configuration name="FlipFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Dynamic_Programming.FlipFive" />
       <module name="DS-ALGO-PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.Dynamic_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipFive" />
         <item itemvalue="Application.ReverseLinkedListInGroup" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.LeftRotateArray" />
         <item itemvalue="Application.RepeatedString" />
-        <item itemvalue="Application.JumpingOnTheClouds" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +159,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added LinkedList collection class" />
@@ -182,6 +177,40 @@
     <MESSAGE value="Added solution for Rotating array to left by `d` digits" />
     <MESSAGE value="Added gitignore file" />
     <option name="LAST_COMMIT_MESSAGE" value="Added gitignore file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1593172149922">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149922" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1593172149922">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149922" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1593172149923">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
   </component>
   <component name="masterDetails">
     <states>
