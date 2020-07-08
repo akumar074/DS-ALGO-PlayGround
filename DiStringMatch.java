@@ -1,5 +1,3 @@
-package com.demo.learning.easy;
-
 class DiStringMatch {
     public int[] diStringMatch(String S) {
         int N = S.length();

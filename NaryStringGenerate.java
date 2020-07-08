@@ -1,5 +1,3 @@
-package com.demo.learning.easy;
-
 public class NaryStringGenerate {
     public static void main(String[] args) {
         generate(new int[3], 3);

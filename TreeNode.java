@@ -1,5 +1,4 @@
 // Implementation of Tree node
-package com.demo.learning.easy;
 
 public class TreeNode {
     int val;

@@ -1,5 +1,3 @@
-package com.demo.learning.easy;
-
 import java.util.HashSet;
 
 class UniqueMorseCode {

@@ -1,175 +1,148 @@
 package DataStructures.LinkedList;
 
-public class DoublyLinkedList {
-  // Properties
-  private DLLNode head;
-  private DLLNode tail;
-  private int length;
+public class DoublyLinkedList<T> {
 
-  // Create a new empty list
-  public DoublyLinkedList(){
-    head = new DLLNode(Integer.MIN_VALUE, null, null);
-    tail = new DLLNode(Integer.MIN_VALUE, head, null);
-    head.setNext(tail);
-    length = 0;
+  // Node inner class for DLL
+  public class Node {
+    public T data;
+    public Node nextNode;
+    public Node prevNode;
   }
 
-  // Get the value at a position
-  public int get(int position) {
-    return Integer.MIN_VALUE;
+  public Node headNode;
+  public Node tailNode;
+  public int size;
+
+  public DoublyLinkedList() {
+    this.headNode = null;
+    this.tailNode = null;
   }
 
-  // Find the first position of a value that equals to a given value
-  public int findPosition(int data) {
-    DLLNode temp = head;
-    int pos = 0;
-    while (temp != null){
-      if(temp.getData() == data){
-        return pos;
-      }
-      pos++;
-      temp = temp.getNext();
-    }
-    return Integer.MIN_VALUE;
+  public boolean isEmpty() {
+    if (headNode == null && tailNode == null)
+      return true;
+    return false;
   }
 
-  // Return the current length of the DLL
-  public int length(){
-    return length;
+  public Node getHeadNode() {
+    return headNode;
   }
 
-  // Add a new value to the front of the list
-  public void insertAtFront(int newValue){
-      DLLNode newNode = new DLLNode(newValue, null, head.getNext());
-      head.getNext().setPrevious(newNode);
-      head = newNode;
-      length += 1;
+  public Node getTailNode() {
+    return tailNode;
   }
 
-  // Add a new value to the list at a given position
-  public void insert(int data, int position){
-    if(position < 0)
-      position = 0;
-    if(position > length)
-      position = length;
-    // If list is empty
-    if(head == null){
-      head = new DLLNode(data);
-      tail = head;
-    }
-    // if adding front of the list
-    else if(position == 0) {
-      DLLNode temp = new DLLNode(data, null, head);
-      head.setPrevious(temp);
-      head = temp;
-    }
-    // else find correct position and insert
-    else {
-      DLLNode p = head;
-      for(int pos = 0; pos < position; pos++) {
-        p = p.getNext();
-      }
-      DLLNode newNode = new DLLNode(data, p, p.getNext());
-      newNode.getNext().setPrevious(newNode);
-      p.setNext(newNode);
-    }
-    length++;
+  public int getSize() {
+    return size;
   }
 
-  // Add the value at the rear of the list
-  public void insertAtEnd(int data) {
-    DLLNode newNode = new DLLNode(data, tail, null);
-    tail.setNext(newNode);
-    tail = newNode;
-    length++;
+  public void insertAtHead(T data) {
+    Node newNode = new Node();
+    newNode.data = data;
+    newNode.nextNode = this.headNode; // Linking newNode to head's nextNode
+    newNode.prevNode = null;
+    if (headNode != null)
+      headNode.prevNode = newNode;
+    else
+      tailNode = newNode;
+    this.headNode = newNode;
+    size++;
   }
 
-  // Remove the value at a given position
-  public void remove(int position) {
-    if(position < 0)
-      position = 0;
-    if(position >= length)
-      position = length - 1;
-    if(head == null)
+  public void insertAtEnd(T data) {
+    if (isEmpty()) {
+      insertAtHead(data);
       return;
-    if(position == 0) {
-      head = head.getNext();
-      if (head == null)
-        tail = null;
-    } else {
-      DLLNode temp = head;
-      for (int i = 0; i < position; i++){
-        temp = temp.getNext();
+    }
+    Node newNode = new Node();
+    newNode.data = data;
+    newNode.nextNode = null;
+    newNode.prevNode = tailNode;
+    tailNode.nextNode = newNode;
+    tailNode = newNode;
+    size++;
+  }
+
+  public void printList() {
+    if (isEmpty()) {
+      System.out.println("List is Empty!");
+      return;
+    }
+
+    Node temp = headNode;
+    System.out.print("List : null <- ");
+
+    while (temp.nextNode != null) {
+      System.out.print(temp.data.toString() + " <-> ");
+      temp = temp.nextNode;
+    }
+
+    System.out.println(temp.data.toString() + " -> null");
+  }
+
+  public void printListReverse() {
+    if (isEmpty()) {
+      System.out.println("List is Empty!");
+      return;
+    }
+
+    Node temp = tailNode;
+    System.out.print("List : null <- ");
+
+    while (temp.prevNode != null) {
+      System.out.print(temp.data.toString() + " <-> ");
+      temp = temp.prevNode;
+    }
+
+    System.out.println(temp.data.toString() + " -> null");
+  }
+
+  public void deleteByValue(T data) {
+    // if empty then simply return
+    if (isEmpty())
+      return;
+
+    // Start from head node
+    Node currentNode = this.headNode;
+
+    if (currentNode.data.equals(data)) {
+      // data is at head so delete from head
+      deleteAtHead();
+      return;
+    }
+    // traverse the list searching for the data to delete
+    while (currentNode != null) {
+      // node to delete is found
+      if (data.equals(currentNode.data)) {
+        currentNode.prevNode.nextNode = currentNode.nextNode;
+        if (currentNode.nextNode != null)
+          currentNode.nextNode.prevNode = currentNode.prevNode;
       }
-      temp.getNext().setPrevious(temp.getPrevious());
-      temp.getPrevious().setNext(temp.getNext());
+      currentNode = currentNode.nextNode;
     }
-    length--;
   }
 
-  // Remove a node matching with a given node
-  public void removeMatched(DLLNode node){
-    if(head == null) return;
-    if(node.equals(head)) {
-      head = head.getNext();
-      if(head == null) {
-        tail = null;
-        return;
-      }
-    }
-    DLLNode p = head;
-    while(p != null){
-      if(node.equals(p)){
-        p.getPrevious().setNext(p.getNext());
-        p.getNext().setNext(p.getNext());
-        return;
-      }
-    }
-    length--;
+  public void deleteAtHead() {
+    if (isEmpty())
+      return;
+
+    headNode = headNode.nextNode;
+    if (headNode == null)
+      tailNode = null;
+    else
+      headNode.prevNode = null;
+    size--;
   }
 
-  // Remove and return the head value from the list
-  public int removeHead(){
-    if(length == 0)
-      return Integer.MIN_VALUE;
-    int data = head.getData();
-    head = head.getNext();
-    head.setPrevious(null);
-    if(head == null)
-      tail = null;
-    length--;
-    return data;
+  public void deleteAtTail() {
+    if (isEmpty())
+      return;
+    tailNode = tailNode.prevNode;
+    if (tailNode == null)
+      headNode = null;
+    else
+      tailNode.nextNode = null;
+    size--;
   }
 
-  // Remove and return tail value from the list
-  public int removeTail(){
-    if(length == 0)
-      return Integer.MIN_VALUE;
-    int data = tail.getData();
-    tail.getPrevious().setNext(null);
-    tail = tail.getPrevious();
-    length--;
-    return data;
-  }
-
-  // Return a String representation of list
-  public String toString(){
-    String result = "[";
-    if(length == 0)
-      return result + "]";
-    DLLNode node = head.getNext();
-    result += head.getData();
-    while (!node.equals(tail)){
-      result += "," + node.getData();
-      node = node.getNext();
-    }
-    return result + "," + tail.getData() + "]";
-  }
-
-  // Clear the list
-  public void clear(){
-    head = null;
-    tail = null;
-    length = 0;
-  }
 }

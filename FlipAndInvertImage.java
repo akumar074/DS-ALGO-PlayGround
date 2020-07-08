@@ -7,8 +7,6 @@
  * For example, inverting [0, 1, 1] results in [1, 0, 0].
  */
 
-package com.demo.learning.easy;
-
 class FlipAndInvertImage {
     public int[][] flipAndInvertImage(int[][] A) {
         int l = A[0].length;

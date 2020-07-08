@@ -2,8 +2,6 @@
   return an array of the squares of each number,
   also in sorted non-decreasing order. */
 
-package com.demo.learning.easy;
-
 class SortedSquares {
     public int[] sortedSquares(int[] A) {
         int length = A.length;

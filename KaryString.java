@@ -1,5 +1,3 @@
-package com.demo.learning.easy;
-
 public class KaryString {
     public static void main(String[] args) {
         generate(new int[3], 3, 3);

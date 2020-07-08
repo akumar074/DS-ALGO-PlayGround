@@ -1,4 +1,6 @@
-package com.demo.learning.easy;
+
+
+
 
 class ToLower {
     public String toLowerCase(String str) {

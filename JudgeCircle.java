@@ -5,8 +5,6 @@ Valid moves are R (right), L (left), U (up), and D (down).
 If the robot returns to the origin after it finishes all of its moves, return true. 
 Otherwise, return false.*/
 
-package com.demo.learning.easy;
-
 class JudgeCircle {
     public boolean judgeCircle(String moves) {
         // short d[] = new short[86];

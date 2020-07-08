@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="Added gitignore file">
-      <change afterPath="$PROJECT_DIR$/Algorithm/Dynamic_Programming/FlipFive.java" afterDir="false" />
+    <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckFirstUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckMaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckReArrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckSecondMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckMid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckUnionIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/RemoveDuplicatesChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DiStringMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlipAndInvertImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlipAndInvertImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/HammingDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JewelsInStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/JewelsInStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JudgeCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/JudgeCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/KaryString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinDeletionSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/MinDeletionSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaryStringGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NaryStringGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatedNTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepeatedNTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortArrayByParity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortArrayByParity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortedSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToLower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniqueEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniqueMorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueMorseCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +75,13 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.FlipFive">
-    <configuration name="FlipFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Dynamic_Programming.FlipFive" />
+  <component name="RunManager" selected="Application.CheckMaxMin">
+    <configuration name="CheckFirstUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.CheckFirstUnique" />
       <module name="DS-ALGO-PlayGround" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.Dynamic_Programming.*" />
+          <option name="PATTERN" value="DataStructures.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,41 +89,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateArray" />
+    <configuration name="CheckMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.CheckMaxMin" />
       <module name="DS-ALGO-PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RepeatedString" />
+    <configuration name="CheckReArrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.CheckReArrange" />
       <module name="DS-ALGO-PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseLinkedList" />
+    <configuration name="CheckSecondMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructures.Arrays.CheckSecondMax" />
       <module name="DS-ALGO-PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListInGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseLinkedListInGroup" />
+    <configuration name="FlipFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Dynamic_Programming.FlipFive" />
       <module name="DS-ALGO-PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckMaxMin" />
+        <item itemvalue="Application.CheckReArrange" />
+        <item itemvalue="Application.CheckSecondMax" />
+        <item itemvalue="Application.CheckFirstUnique" />
         <item itemvalue="Application.FlipFive" />
-        <item itemvalue="Application.ReverseLinkedListInGroup" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.LeftRotateArray" />
-        <item itemvalue="Application.RepeatedString" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569759445660</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Flip Five solution">
+      <created>1593172758446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593172758446</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,41 +250,62 @@
     <MESSAGE value="Added solution for merging two sorted linked list with using iteration" />
     <MESSAGE value="Added solution for Rotating array to left by `d` digits" />
     <MESSAGE value="Added gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore file" />
+    <MESSAGE value="Added Flip Five solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Flip Five solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1593172149923">
+    <state x="0" y="0" width="1920" height="1034" key="CommitChangelistDialog2" timestamp="1593172758164">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
-    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1593172149922">
+    <state x="0" y="0" width="1920" height="1034" key="CommitChangelistDialog2/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172758164" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1593374305111">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149922" />
-    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1593172149922">
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305111" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1593374305110">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149922" />
-    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1593172149923">
+    <state width="1874" height="339" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305110" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1593374305110">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1593172149923">
+    <state width="1874" height="339" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578809" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305110" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1593374305111">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
-    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1593172149923">
+    <state width="1874" height="339" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305111" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1593374305112">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
-    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1593172149923">
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305112" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1593374305111">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
-    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1593172149923">
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305111" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1593374305111">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172149923" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305111" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1593374305112">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593173578810" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1034@0.0.1920.1034" timestamp="1593374305112" />
+    <state x="556" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593172834069">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="556" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1034/1920.0.1920.1080@0.0.1920.1034" timestamp="1593172834069" />
+    <state x="620" y="236" key="run.anything.popup" timestamp="1593329782218">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="620" y="236" key="run.anything.popup/0.0.1920.1034@0.0.1920.1034" timestamp="1593329782218" />
   </component>
   <component name="masterDetails">
     <states>

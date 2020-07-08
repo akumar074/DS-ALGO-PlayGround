@@ -1,4 +1,4 @@
-package com.demo.learning.easy;
+
 
 class JewelsInStones {
     public int numJewelsInStones(String J, String S) {

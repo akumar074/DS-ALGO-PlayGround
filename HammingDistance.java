@@ -3,7 +3,7 @@
  * corresponding bits are different.
  * Given two integers x and y, calculate the Hamming distance.
  */
-package com.demo.learning.easy;
+
 
 class HammingDistance {
     public int hammingDistance(int x, int y) {

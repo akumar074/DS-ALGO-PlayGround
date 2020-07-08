@@ -1,4 +1,3 @@
-package com.demo.learning.easy;
 
 class SortArrayByParity {
     public int[] sortArrayByParity(int[] A) {

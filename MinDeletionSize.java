@@ -1,5 +1,3 @@
-package com.demo.learning.easy;
-
 class MinDeletionSize {
     public int minDeletionSize(String[] A) {
         int count = 0;
