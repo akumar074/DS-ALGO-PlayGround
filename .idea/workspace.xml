@@ -20,33 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ccf6879-d266-482d-b2d6-932a326d3996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckFirstUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckReArrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckRotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Arrays/CheckSecondMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckMid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/CheckUnionIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/RemoveDuplicatesChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DiStringMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlipAndInvertImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlipAndInvertImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/HammingDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JewelsInStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/JewelsInStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JudgeCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/JudgeCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/KaryString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinDeletionSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/MinDeletionSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaryStringGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NaryStringGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepeatedNTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/RepeatedNTimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortArrayByParity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortArrayByParity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortedSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToLower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniqueEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueEmails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniqueMorseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueMorseCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
