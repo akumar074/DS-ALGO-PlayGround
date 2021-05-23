@@ -31,6 +31,7 @@ public class FlipFive {
             grid currGrid = new grid(in);
             int out = moves.get(currGrid);
             System.out.println(out);
+            sc.close();
         }
     }
 

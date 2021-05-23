@@ -25,6 +25,7 @@ public class TestClass {
 
         int out_ = Solution(thieves, edges, n, k);
         System.out.println(out_);
+        in.close();
     }
 
     static int Solution(int[] thieves, int[][] edges, int n, int k) {
